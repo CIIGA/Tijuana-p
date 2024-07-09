@@ -54,7 +54,7 @@
             lo dispuesto por el primer párrafo del artículo 17 de la Ley que Reglamenta el Servicio de Agua
             Potable en el Estado de Baja California, y el acuerdo número SE/003/20-12-2023 aprobado en la séptima
             sesión extraordinaria del consejo de administración de la Comisión Estatal de Servicios Públicos de
-            Tijuana celebrado en la fecha 14 de julio de 2022, donde se otorga el nombramiento de Director
+            Tijuana celebrado en la fecha 20 de diciembre de 2023, donde se otorga el nombramiento de Director
             General y de representación de la Comisión Estatal Servicios Públicos de Tijuana, de conformidad al
             artículo 4-1 de la Ley de Hacienda del Estado de Baja California; artículo 14 BIS del Codigo Fiscal
             para el Estado de Baja California; artículo 3 fracciones I, II, lll, IV, 15 y 16 fracción l,ll,
@@ -93,7 +93,7 @@
             del
             consejo de administración de la Comisión Estatal de Servicios Públicos de Tijuana celebrado en la
             fecha
-            14 de julio de 2022, donde se otorga el nombramiento de Director General y de representación de la
+            20 de diciembre de 2023, donde se otorga el nombramiento de Director General y de representación de la
             Comisión Estatal Servicios Públicos de Tijuana, de conformidad al artículo 4-1 de la Ley de Hacienda
             del
             Estado de Baja California; artículo 14 BIS del Codigo Fiscal para el Estado de Baja California;
@@ -132,7 +132,7 @@
             lo dispuesto por el primer párrafo del artículo 17 de la Ley que Reglamenta el Servicio de Agua
             Potable en el Estado de Baja California, y el acuerdo número SE/004/14-07-22 aprobado en la séptima
             sesión extraordinaria del consejo de administración de la Comisión Estatal de Servicios Públicos de
-            Tijuana celebrado en la fecha 14 de julio de 2022, donde se otorga el nombramiento de Director
+            Tijuana celebrado en la fecha 20 de diciembre de 2023, donde se otorga el nombramiento de Director
             General y de representación de la Comisión Estatal Servicios Públicos de Tijuana, de conformidad al
             artículo 4-1 de la Ley de Hacienda del Estado de Baja California; artículo 14 BIS del Codigo Fiscal
             para el Estado de Baja California; artículo 3 fracciones I, II ll, IV, 15 y 16 fracción l, ll,
@@ -166,7 +166,7 @@
             lo dispuesto por el primer párrafo del artículo 17 de la Ley que Reglamenta el Servicio de Agua
             Potable en el Estado de Baja California, y el acuerdo número SE/004/14-07-22 aprobado en la séptima
             sesión extraordinaria del consejo de administración de la Comisión Estatal de Servicios Públicos de
-            Tijuana celebrado en la fecha 14 de julio de 2022, donde se otorga el nombramiento de Director
+            Tijuana celebrado en la fecha 20 de diciembre de 2023, donde se otorga el nombramiento de Director
             General y de representación de la Comisión Estatal Servicios Públicos de Tijuana, de conformidad al
             artículo 4-1 de la Ley de Hacienda del Estado de Baja California; artículo 14 BIS del Codigo Fiscal
             para el Estado de Baja California; artículo 3 fracciones I, II ll, IV, 15 y 16 fraccion l, ll,
