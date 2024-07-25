@@ -675,7 +675,7 @@
             en que se haya incurrido en
             mora para cada uno de los periodos facturados vencidos y hasta la fecha de la presente resolución
             liquidatoria, misma que se determinó de la forma siguiente:</p>
-        <p class="bold text-justify">DOSGLOCE DE LOS PERIODOS FACTURADOS VENCIDOS Y RECARGOS QUE CONFORMAN EL MONTO
+        <p class="bold text-justify">DESGLOCE DE LOS PERIODOS FACTURADOS VENCIDOS Y RECARGOS QUE CONFORMAN EL MONTO
             TOTAL DEL
             CRÉDITO FISCAL</p>
 
