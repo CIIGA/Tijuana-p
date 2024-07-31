@@ -46,7 +46,7 @@
             <br />
             <span class="bold"> RAZON SOCIAL:</span>{{ $data->razons }}
             <br />
-            <span class="bold">DIRECCION INDISTINTA:</span>
+            <span class="bold">DOMICILIO:</span>
             <br/>
             {{-- {{ $data->domicilio }} --}}
             {{-- Recorrer los segmentos e imprimirlos en el formato requerido de domicilio--}}
