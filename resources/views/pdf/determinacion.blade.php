@@ -46,7 +46,7 @@
             <br />
             <span class="bold"> RAZON SOCIAL:</span>{{ $data->razons }}
             <br />
-            <span class="bold">DOMICILIO1:</span>
+            <span class="bold">DOMICILIO:</span>
             <br/>
             {{-- {{ $data->domicilio }} --}}
             {{-- Recorrer los segmentos e imprimirlos en el formato requerido de domicilio--}}
@@ -59,7 +59,7 @@
         @if ($data->tipo_s == 'NO DOMESTICO')
         @if ($IDdistrito == '1')
         <p class="text-justify">
-            El suscrito Mtro. <span class="bold">Jesus García Castro</span> Director General de la
+            El suscrito Mtro. <span class="bold">Jesús García Castro</span> Director General de la
             Comisión Estatal de Servicios
             Públicos de Tijuana, con fundamento en los artículos 16 y 31 fracción IV de la Constitución Política
             de los Estados Unidos Mexicanos; artículo 22, fracción II de la Ley de las Entidades Paraestatales
@@ -211,7 +211,7 @@
         @endif
         <p class="text-center bold">CONSIDERANDO ÚNICO:</p>
         <p class="text-justify">
-            En virtud que de acuerdo a la información registrada en los archivos digitales del sistema electrónico de la
+            De acuerdo a la información registrada en los archivos digitales del sistema electrónico de la
             Comisión Estatal de Servicios Públicos de Tijuana a cargo de la usuaria <span class="bold">{{
                 $data->propietario }}</span>, quien se
             encuentra
@@ -229,8 +229,8 @@
             servicio de consumo agua potable por los diversos periodos consecutivos facturados que comprenden del
             <span class="bold">{{ $data->periodo }}</span>, toda vez que los
             referidos derechos no fueron cubiertos de
-            conformidad con lo
-            establecido por el artículo 16 último párrafo de la Ley que Reglamenta el Servicio de Agua Potable en el
+            conformidad con lo establecido por el artículo 14, 16 fracción I último párrafo de la Ley que Reglamenta 
+            el Servicio de Agua Potable en el
             Estado de Baja California. Por lo que se procede a la determinación del crédito por cuotas de consumo de
             agua y sus accesorios en cantidad liquida, conforme lo previsto por el artículo 21 de la Ley de las
             Comisiones Estatales de Servicios Públicos del Estado de Baja California en relación con lo previsto por el
@@ -253,10 +253,22 @@
                 <span class="bold"> Ley que Reglamenta el Servicio de Agua Potable en el Estado de Baja
                     California</span>
                 <br />
+                <br />
+                “ARTICULO 14.- Los propietarios o poseedores de predios o giros están obligados a pagar el costo de las 
+                obras a que se refieren los artículos 1 y 2 de esta Ley, en los términos y forma que señalen las leyes 
+                respectivas.
+                <br />
+                <br />
                 <span class="bold"> “ARTICULO 16.-</span> Están obligados al pago de los derechos por servicio de
                 agua:
                 <br />
+                <br />
+                I.- Los propietarios de los predios o giros que tengan instaladas tomas.
+                <br />
+                II.- Los poseedores de predios o giros que tengan instaladas tomas.
+                <br />
                 …………..
+                <br />
                 <br />
                 Las personas obligadas a pagar los derechos por servicios de agua, deberán cubrirlos en las oficinas
                 recaudadoras o en establecimientos autorizados por las autoridades fiscales, dentro de los quince días
@@ -274,8 +286,8 @@
         </div>
         <p class="text-justify">
             Por lo que, con fundamento en lo dispuesto por los artículos 7, 23, primer párrafo, 27, primer párrafo
-            del Código Fiscal del Estado de Baja California, reformado mediante el decreto 58 publicado en el
-            Periódico Oficial del Estado de Baja California el día 27 de junio de 2008; el artículo 36 de la Ley de
+            del Código Fiscal del Estado de Baja California, reformado mediante el decreto no. 411, publicado en el 
+            periódico oficial no. 14, sección III, de fecha 15 de marzo de 2024, tomo CXXXI; el artículo 36 de la Ley de
             Ingresos para el Estado de Baja California para los Ejercicio Fiscales <span class="bold">2004,
                 2005</span>; el artículo 37 de la
             Ley de Ingresos para el Estado de Baja California para los Ejercicio Fiscales <span class="bold">2006,
@@ -305,6 +317,17 @@
                 siempre que en este último caso, se encuentren previstos como tales en la Ley de Ingresos del Estado.”
             </p>
             <p class="text-justify">
+                <span class="bold">“ARTICULO 9.-</span> Son Aprovechamientos los recargos, multas y demás ingresos de 
+                derecho público, no clasificables como Impuestos, Derechos o Productos.
+            </p>
+            <p class="text-justify">
+                <span class="bold">“ARTICULO 22.-</span> La obligación fiscal nace cuando se realizan las situaciones 
+                jurídicas o de hecho previstas en las Leyes Fiscales. 
+                <br />
+                Dicha obligación se determinará y liquidará conforme a las Disposiciones vigentes en el momento de su nacimiento, 
+                pero le serán aplicables las normas sobre procedimientos que se expidan con posterioridad.
+            </p>
+            <p class="text-justify">
                 <span class="bold">“ARTÍCULO 23.-</span> Son créditos fiscales las obligaciones
                 determinadas en cantidad líquida que tiene derecho a percibir el Estado o sus organismos
                 descentralizados que provengan de contribuciones o de sus accesorios, incluyendo los que deriven de
@@ -322,7 +345,7 @@
                 fiscales, conforme a la tasa que anualmente disponga la Ley de Ingresos del Estado.”
             </p>
             <p class="text-justify">
-                <span class="bold"> “ARTÍCULO 35.- …………. </span>
+                <span class="bold"> “ARTÍCULO 35.- LEY DE INGRESOS DEL ESTADO DE BAJA CALIFORNIA.-</span>
                 <br />
                 Cuando no se cubran las contribuciones dentro de los plazos señalados en las disposiciones fiscales o no
                 se cubran las parcialidades en los plazos convenidos, se pagarán recargos por concepto de indemnización
@@ -663,6 +686,18 @@
             noviembre de 2.25% y diciembre de 2.25%.
         </p>
         @endif
+        @if ($item->anio == 2024)
+        <p class="text-justify">
+            <span class="bold">Recargos para el año 2024.</span>
+            <br />
+            De conformidad con lo dispuesto por el artículo 37 de la Ley de Ingresos del Estado de Baja California 
+            <span class="bold">para el ejercicio fiscal de 2024,</span> publicada en el Periódico Oficial del 
+            Estado de Baja California de fecha 22 de diciembre de 2023, cuando no se cubran las contribuciones dentro
+            de los plazos señalados en las disposiciones fiscales, se pagarán recargos por concepto de indemnización 
+            al fisco la tasa de 2.25% mensual, la tasa de recargos por el mes de enero fue de 2.25%, febrero del 2.25%,
+            marzo de 2.25%, abril de 2.25%, mayo de 2.25%, junio de 2.25%, julio de 2.25%, agosto de 2.25%.
+        </p>
+        @endif
         @endforeach
         <p class="bold text-justify">Suma de las tasas de recargos calculados en forma mensual para los derechos por
             periodos
@@ -918,7 +953,7 @@
         <p class="text-justify">
             Lo anterior, en virtud de que el contribuyente no dio cumplimiento a lo dispuesto en el último
             párrafo del artículo 16 de la Ley que Reglamenta el Servicio de Agua Potable en el Estado de Baja
-            California, en relación con lo previsto por el artículo al artículo 11, sección lll, inciso A),
+            California, en relación con lo previsto por el artículo 11, sección lll, inciso A),
             numeral 2, subinciso a), b), c) y d) de la Ley de Ingresos para los ejercicios fiscales de los años
             2004; artículo 11, sección lV inciso A), numeral 2, subinciso a), b), c) y d) de la Ley de Ingresos
             para los ejercicios fiscales de los años <span class="bold">2005, 2006, 2007, 2008, 2009, 2010,
@@ -1040,7 +1075,13 @@
             </thead>
             <tbody>
                 <tr>
-                    <td>Corriente</td>
+                    <td>Corriente <br />
+                        Período de consumo: 
+                        <br />
+                        @if($periodoActual != 'none')
+                            {{ $periodoActual }}
+                        @endif
+                    </td>
                     <td>${{ number_format($data->corriente, 2) }}</td>
                 </tr>
                 <tr>
@@ -1106,10 +1147,10 @@
         {{-- <br /> --}}
         @if ($ejecutores == 'none')
         <p class="text-justify">
-            Para dar cumplimiento a lo anteriormente determinado, se designa como NOTIFICADOR(ES) del presente, al (los)
+            Para dar cumplimiento a lo anteriormente determinado, se designa indistintamente como NOTIFICADOR(ES) del presente, al (los)
             C.C.____________________________________________ y _______________________________________________
-            __________________________________con nombramiento(s) de fecha 20 de mayo de 2024, para que de manera
-            conjunta o separada den cumplimiento a la presente orden, quien(es) al inicio de la diligencia deberá(n)
+            __________________________________con nombramiento(s) de fecha 20 de mayo de 2024, para que cualquiera de ellos den 
+            cumplimiento a la presente orden, quien(es) al inicio de la diligencia deberá(n)
             identificarse con la constancia de nombramiento vigente en la que aparece su fotografía y su firma y que los
             acredita como notificadores adscritos a esta Comisión Estatal de Servicios Públicos de
             Tijuana.
@@ -1132,7 +1173,9 @@
                 Administrativa del Estado de Baja California, en contra de la presente resolución podrá interponer
                 demanda de nulidad, ante el Tribunal Estatal de Justicia Administrativa del Estado de Baja California,
                 dentro del plazo de <span class="bold">QUINCE DIAS</span> hábiles siguientes a la fecha en que surta
-                efectos su notificación.
+                efectos su notificación, asimismo, y de manera optativa, podrá interponer recurso administrativo de 
+                revocación, en los términos que establecen los artículos 181,182 y 183 del Código Fiscal del Estado 
+                de Baja California.
             </p>
             {{-- Salto de linea p --}}
             <br />

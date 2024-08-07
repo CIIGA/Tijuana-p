@@ -433,8 +433,26 @@ class DeterminacionController extends Controller
                 $segmentos[] = $cleanedSegment;
             }
         }
+        $añoEnCurso = Carbon::now()->year;
+        // Realizar la consulta con el año en curso
+        $periodoActual = DB::select("SELECT CONCAT(
+                                        FORMAT(MIN(fechavto), 'dd'' de ''MMMM'' de ''yyyy', 'es-ES'), 
+                                        ' al ', 
+                                        FORMAT(MAX(fechavto), 'dd'' de ''MMMM'' de ''yyyy', 'es-ES')
+                                    ) AS periodo
+                                    FROM cobranzaExternaHistoricosWS3
+                                    WHERE cuentaImplementta = ?
+                                    AND YEAR(fechavto) = ?
+                                    ", [$data->cuenta, $añoEnCurso]);
+        
+        // Comprobar si el resultado es vacío o no
+        if (empty($periodoActual) || empty($periodoActual[0]->periodo) || $periodoActual[0]->periodo == ' al ') {
+            $periodoActual = 'none';
+        } else {
+            $periodoActual = $periodoActual[0]->periodo;
+        }
         // if($condicion_firma!=1){
-        $pdf = Pdf::loadView('pdf.determinacion', ['items' => $tabla, 'cuenta' => $cuenta->cuenta, 'ra' => $ra, 't_adeudo' => $t_adeudo, 'total_ar' => $total_ar, 'tar' => $tar, 'data' => $data, 'tp' => $tp, 'folio' => $folio, 'años' => $años, 'anioformat' => $anioformat, 'i' => $i, 'IDdistrito' => $IDdistrito, 'ejecutores' => $ejecutoresformat, 'segmentos' => $segmentos]);
+        $pdf = Pdf::loadView('pdf.determinacion', ['periodoActual'=>$periodoActual,'items' => $tabla, 'cuenta' => $cuenta->cuenta, 'ra' => $ra, 't_adeudo' => $t_adeudo, 'total_ar' => $total_ar, 'tar' => $tar, 'data' => $data, 'tp' => $tp, 'folio' => $folio, 'años' => $años, 'anioformat' => $anioformat, 'i' => $i, 'IDdistrito' => $IDdistrito, 'ejecutores' => $ejecutoresformat, 'segmentos' => $segmentos]);
         // }
         // else{
         //     $pdf = Pdf::loadView('pdf.determinacion_firma', ['items' => $tabla, 'cuenta' => $cuenta->cuenta, 'ra' => $ra, 't_adeudo' => $t_adeudo, 'total_ar' => $total_ar, 'tar' => $tar, 'data' => $data, 'tp' => $tp, 'folio' => $folio, 'años' => $años, 'anioformat' => $anioformat,'i'=>$i,'IDdistrito'=>$IDdistrito]);
