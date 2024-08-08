@@ -44,6 +44,7 @@
         </p>
         @if ($data->tipo_s == 'NO DOMESTICO')
         @if ($IDdistrito == '1')
+        
         <p class="text-justify">
             El suscrito Mtro. <span class="bold">Jesús García Castro</span> Director General de la
             Comisión Estatal de Servicios
