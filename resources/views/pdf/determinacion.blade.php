@@ -56,6 +56,7 @@
             <br/>
             <span class="bold">PRESENTE. -</span>
         </p>
+        
         @if ($data->tipo_s == 'NO DOMESTICO')
         @if ($IDdistrito == '1')
         <p class="text-justify">
