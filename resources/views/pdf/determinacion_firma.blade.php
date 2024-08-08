@@ -45,7 +45,7 @@
         @if ($data->tipo_s == 'NO DOMESTICO')
         @if ($IDdistrito == '1')
         <p class="text-justify">
-            El suscrito Mtro. <span class="bold">Jesus García Castro</span> Director General de la
+            El suscrito Mtro. <span class="bold">Jesús García Castro</span> Director General de la
             Comisión Estatal de Servicios
             Públicos de Tijuana, con fundamento en los artículos 16 y 31 fracción IV de la Constitución Política
             de los Estados Unidos Mexicanos; artículo 22, fracción II de la Ley de las Entidades Paraestatales
