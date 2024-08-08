@@ -94,7 +94,7 @@
         @endif
         @if ($IDdistrito != '1')
         <p class="text-justify">
-            El suscrito Mtro. <span class="bold">Jesus García Castro</span> Director General de la
+            El suscrito Mtro. <span class="bold">Jesús García Castro</span> Director General de la
             Comisión Estatal de Servicios
             Públicos de Tijuana, con fundamento en los artículos 16 y 31 fracción IV de la Constitución Política
             de
@@ -140,7 +140,7 @@
         @if ($data->tipo_s == 'DOMESTICO')
         @if ($IDdistrito == '1')
         <p class="text-justify">
-            El suscrito Mtro. <span class="bold">Jesus García Castro</span> Director General de la
+            El suscrito Mtro. <span class="bold">Jesús García Castro</span> Director General de la
             Comisión Estatal de Servicios
             Públicos de Tijuana, con fundamento en los artículos 16 y 31 fracción IV de la Constitución Política
             de los Estados Unidos Mexicanos; artículo 22, fracción II de la Ley de las Entidades Paraestatales
@@ -175,7 +175,7 @@
         @endif
         @if ($IDdistrito != '1')
         <p class="text-justify">
-            El suscrito Mtro. <span class="bold">Jesus García Castro</span> Director General de la
+            El suscrito Mtro. <span class="bold">Jesús García Castro</span> Director General de la
             Comisión Estatal de Servicios
             Públicos de Tijuana, con fundamento en los artículos 16 y 31 fracción IV de la Constitución Política
             de los Estados Unidos Mexicanos; artículo 22, fracción II de la Ley de las Entidades Paraestatales
@@ -230,7 +230,7 @@
             servicio de consumo agua potable por los diversos periodos consecutivos facturados que comprenden del
             <span class="bold">{{ $data->periodo }}</span>, toda vez que los
             referidos derechos no fueron cubiertos de
-            conformidad con lo establecido por el artículo 14, 16 fracción I último párrafo de la Ley que Reglamenta 
+            conformidad con lo establecido por el artículo 14, 16 fracción II último párrafo de la Ley que Reglamenta 
             el Servicio de Agua Potable en el
             Estado de Baja California. Por lo que se procede a la determinación del crédito por cuotas de consumo de
             agua y sus accesorios en cantidad liquida, conforme lo previsto por el artículo 21 de la Ley de las
@@ -945,6 +945,7 @@
         </p>
         <p class="bold">Para el año 2022 se agregará al factor de actualización un 0.5% acumulable cada mes</p>
         <p class="bold">Para el año 2023 se agregará al factor de actualización un 1% acumulable cada mes</p>
+        <p class="bold">Para el año 2024 se agregará al factor de actualización un 1.0432% acumulable cada mes</p>
         {{-- Salto de linea p --}}
         <p>
             <br />
@@ -1159,10 +1160,10 @@
         @endif
         @if ($ejecutores != 'none')
         <p class="text-justify">
-            Para dar cumplimiento a lo anteriormente determinado, se designa como NOTIFICADOR(ES) del presente, al (los)
+            Para dar cumplimiento a lo anteriormente determinado, se designa indistintamente como NOTIFICADOR(ES) del presente, al (los)
             {{$ejecutores}}
-            con nombramiento(s) de fecha 20 de mayo de 2024, para que de manera
-            conjunta o separada den cumplimiento a la presente orden, quien(es) al inicio de la diligencia deberá(n)
+            con nombramiento(s) de fecha 20 de mayo de 2024, para que cualquiera de ellos den cumplimiento a la presente orden, 
+            quien(es) al inicio de la diligencia deberá(n)
             identificarse con la constancia de nombramiento vigente en la que aparece su fotografía y su firma y que los
             acredita como notificadores adscritos a esta Comisión Estatal de Servicios Públicos de
             Tijuana.
@@ -1188,7 +1189,7 @@
             <p class="firm bold text-center">
                 _____________________________________________
                 <br />
-                <span>Mtro Jesus García Castro</span><br />
+                <span>Mtro Jesús García Castro</span><br />
                 <span>Director General de la Comisión Estatal</span><br />
                 <span>de Servicios Públicos de Tijuana.</span>
             </p>
