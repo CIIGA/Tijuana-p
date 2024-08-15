@@ -291,14 +291,9 @@
             periódico oficial no. 14, sección III, de fecha 15 de marzo de 2024, tomo CXXXI; el artículo 36 de la Ley de
             Ingresos para el Estado de Baja California para los Ejercicio Fiscales <span class="bold">2004,
                 2005</span>; el artículo 37 de la
-            Ley de Ingresos para el Estado de Baja California para los Ejercicio Fiscales <span class="bold">2006,
-                2007, 2008, 2009,
-                2010, 2015 y 2022;</span> el artículo 37 de la Ley de Ingresos para el Estado de Baja California para
-            los
-            Ejercicio Fiscales <span class="bold">2011, 2012, 2013, 2014, 2016, 2017, 2018 y 2019;</span> el artículo
-            37 de la Ley de Ingresos
-            para el Estado de Baja California para el Ejercicio Fiscal <span class="bold">2020, 2021, 2022, 2023 y
-                2024;</span> el artículo 21 de la Ley de las
+            Ley de Ingresos para el Estado de Baja California para los Ejercicio Fiscales <span class="bold">2006, 2007, 
+            2008, 2009, 2010, 2011, 2012, 2013, 2014,2015 2016, 2017, 2018, 2019 ,2020, 2021, 2022, 2023 y 2024</span> 
+            el artículo 21 de la Ley de las
             Comisiones Estatales de Servicios Públicos del Estado de Baja California, se procede a establecer el
             monto total del crédito de acuerdo al desglose de los periodos facturados comprendidos del
             <span class="bold">{{ $data->periodo }}</span> asimismo, se procede a determinar el importe de los
